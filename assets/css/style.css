@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1607329988179-70ae5c169fac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #689775;
+    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    background-color: black;
+    color: #c7493b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #c7493b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a43228;
+  }
+  
+p {
+    font-size: 16px;
+    color:#ad8174
+
+
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+}
+
+.about-me {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #689775;
+    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    background-color: black;
+    color: #c7493b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-me img {
+    max-height: 200px;
+}
+
+.main-body-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #c7493a;
+}
