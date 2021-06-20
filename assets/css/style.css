@@ -7,98 +7,160 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1607329988179-70ae5c169fac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
     height: 100%;
-    width: 100%;
+    width: 100%;font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
     background-size: cover;
     background-position: center;
+
 }
 
-.header {
-    margin: 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #689775;
-    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
-    background-color: black;
-    color: #c7493b;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.header h1 {
+h1 {
     display: inline-block;
-    font-size: 48px;
+    float: left;
+    font-size: 48pt;
     padding-bottom: 5px;
 }
 
-.navbar {
-    padding-top: 20px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
-    font-size: 20px;
+h2 {
+    float: left;
+    font-size: 24pt;
+    color: #b26152;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: left;
+    border: 3px ridge #67544f;
+    border-bottom: 3px solid #67544f;
 }
 
-.header div ul {
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 5px ridge #497763;
+    background-color: black;
+    color: #b26152;
+    clear: both;
+	overflow: hidden;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
+    align-items: center;
+    
 }
 
-.header div ul li {
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
     display: inline-block;
-    margin-left: 25px;
+    font-size: 24pt;
+    margin: 20px;
 }
 
 a {
-    color: #c7493b;
+    color: #70799c;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a43228;
+    color: #42455b;
   }
   
 p {
-    font-size: 16px;
-    color:#ad8174
-
-
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
+    font-size: 16pt;
+    color: #c2b1b6;
     float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 100%;
-    display: inline-block;
+    margin: 20px;
 }
 
 .about-me {
     margin: 20px;
     padding: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #689775;
-    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+    border: 5px ridge #497763;
     background-color: black;
-    color: #c7493b;
+    color: #b26152;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
+
 .about-me img {
+    position: relative;
     max-height: 200px;
+    border-radius: 8px;
 }
 
-.main-body-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    color: #c7493a;
+.work {  
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #497763;
+    border-style: ridge;
+    background-color: black;
+    color: #b26152;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.gender-and-sexuality {
+    display: flex;
+    max-width: 800px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.gender-and-sexuality:hover {
+    opacity: 1.0;
+  }
+
+  .work-image {
+      display: flex;
+      position: relative;
+      max-width: 400px;
+      max-height: 200px;
+      margin-top: 20px;
+      opacity: 0.5;
+      border-radius: 8px;
+  }
+
+  .work-image:hover {
+      opacity: 1.0;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #497763; 
+    border-style: ridge;
+    background-color: black;
+    color: #b26152;
+    clear: both;
+	overflow: hidden;
+    justify-content: space-evenly;
+  }
