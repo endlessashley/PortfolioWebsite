@@ -6,12 +6,16 @@
 
 body {
     background-image: url(https://images.unsplash.com/photo-1607329988179-70ae5c169fac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
-    height: 100%;
-    width: 100%;font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
     background-size: cover;
     background-position: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+   
 
 }
+
+/* General elements */
 
 h1 {
     display: inline-block;
@@ -31,6 +35,30 @@ h2 {
     border: 3px ridge #67544f;
     border-bottom: 3px solid #67544f;
 }
+
+ul li {
+    display: inline-block;
+    font-size: 24pt;
+    margin: 20px;
+}
+
+a {
+    color: #70799c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #42455b;
+  }
+  
+p {
+    font-size: 16pt;
+    color: #c2b1b6;
+    float: right;
+    margin: 20px;
+}
+
+/* header div styling */
 
 .header {
     display: flex;
@@ -65,27 +93,7 @@ h2 {
     padding: 0;
 }
 
-ul li {
-    display: inline-block;
-    font-size: 24pt;
-    margin: 20px;
-}
-
-a {
-    color: #70799c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #42455b;
-  }
-  
-p {
-    font-size: 16pt;
-    color: #c2b1b6;
-    float: right;
-    margin: 20px;
-}
+/* About Me div styling */
 
 .about-me {
     margin: 20px;
@@ -104,6 +112,8 @@ p {
     max-height: 200px;
     border-radius: 8px;
 }
+
+/* Work div styling */
 
 .work {  
     margin: 20px;
@@ -146,6 +156,8 @@ p {
   .work-image:hover {
       opacity: 1.0;
   }
+
+  /* Footer styling */
 
   .footer {
     display: flex;
