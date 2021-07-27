@@ -3,44 +3,51 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ashley Tate's Developer Portfolio</title>
 </head>
 
 <body>
-     <div class="header">
-         <h1>Ashley Tate</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4"><h1>Ashley Tate</h1></div>
+                <nav class="col-xs-12 col-sm-6 nav">
+                    <a href="#about-me">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                    <a href="./assets/images/developerresume.pdf">Resume</a>
+                </nav>
         </div>
-    
-    <div class="about-me">
-        <h2><a id="about-me"></a>About Me</h2>
-            <img src="./assets/images/headshot.jpeg" alt="headshot"/>
-            <p> As an editor, I am passionate about ensuring that the brightest insights can make the fullest impact. As an academic, educator, and researcher, I am committed to making complicated concepts accessible and meaningful to audiences with all levels of experience. As a program coordinator, I thrive on drawing together people and resources to achieve successful results. </p>
-    </div>
-    
-    <div class="work">
-        <h2><a id="work"></a>Work</h2>
-            <a href="https://wordpress.its.virginia.edu/Gender__Sex_in_the_Bible/">
-                <img class="gender-and-sexuality" alt="Adam and Eve" src="./assets/images/cropped-cropped-adam_and_eve.jpg"></a>
-            <a href="https://wordpress.its.virginia.edu/_17264/">
-                <img class="work-image" src="./assets/images/cropped-David-and-Goliath.jpg" alt="David and Goliath"></a>
-            <a href="https://wordpress.its.virginia.edu/Bible_in_Fiction__Film/">
-                <img class="work-image" src="./assets/images/cropped-jesus-of-montreal-film.jpg" alt="Jesus of Montreal"></a>
     </div>
 
+    <div class="container-fluid about-me">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2"><h2><a id="about-me"></a>About</h2></div>
+            <div class="col-xs-12 col-sm-2 about-me-img"><img src="./assets/images/headshot.jpeg" alt="headshot"/></div>
+            <div class="col-xs-12 col-sm-8"><p>Learning full-stack development was the most natural choice in the world for me. After receiving my PhD in Religious Studies from the University of Virginia and considering my next steps, I knew that if there's one thing I would never get tired of, it's learning new languages! In past lives, I've been an adjunct professor, a copyeditor and managing editor, and a program coordinator. Now, I'm thrilled to bring those skills to bear in a career as a full-stack developer.</p></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid work">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2"><h2><a id="work"></a>Work</h2></div>
+            <div class="col-xs-12 col-sm-4"><a href="https://endlessashley.github.io/Shield-ID/">
+                <img class="img-responsive" alt="S.H.I.E.L.D. application homepage" src="./assets/images/shield-demo.png"></a></div>
+            <div class="col-xs-12 col-sm-3"><a href="https://endlessashley.github.io/Scheduler/">
+                <img class="img-responsive" src="./assets/images/work-day-scheduler.png" alt="David and Goliath"></a></div>
+            <div class="col-xs-12 col-sm-3"><a href="https://endlessashley.github.io/PasswordGenerator616/">
+                <img class="img-responsive" src="./assets/images/password-generator.png" alt="Jesus of Montreal"></a></div>
+        </div>
+    </div>
 
-    <div class="footer">
-        <h2 a id="contact"></a>Contact</h2>
-            <ul class="content">
-                <li class="content"><a href="mailto: ashley.m.tate@gmail.com">E-mail</a></li>
-                <li class="content"><a href="https://www.linkedin.com/in/ashley-marie-tate/">LinkedIn</a></li>
-                <li class="content"><a href="https://github.com/endlessashley">GitHub</a></li>
-            </ul>
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4"><h2><a id="contact"></a>Contact</h2></div>
+            <nav class="col-xs-12 col-sm-6 nav">
+                <a href="mailto: ashley.m.tate@gmail.com">E-mail</a></li>
+                <a href="https://www.linkedin.com/in/ashley-marie-tate/">LinkedIn</a></li>
+                <a href="https://github.com/endlessashley">GitHub</a></li>
+            </nav>
     </div>

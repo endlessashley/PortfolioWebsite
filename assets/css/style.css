@@ -22,6 +22,7 @@ h1 {
     float: left;
     font-size: 48pt;
     padding-bottom: 5px;
+    padding-right: 40px;
 }
 
 h2 {
@@ -34,12 +35,6 @@ h2 {
     text-align: left;
     border: 3px ridge #67544f;
     border-bottom: 3px solid #67544f;
-}
-
-ul li {
-    display: inline-block;
-    font-size: 24pt;
-    margin: 20px;
 }
 
 a {
@@ -61,10 +56,6 @@ p {
 /* header div styling */
 
 .header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
     margin: 20px;
     padding: 20px;
     border: 5px ridge #497763;
@@ -77,27 +68,16 @@ p {
 
 .nav {
     display: flex;
-    flex-direction: column;
-    list-style-type: none;
     align-items: center;
-    
+    font-size: 24pt;
+    margin: 30px;
+    justify-content: space-between;
 }
 
-.nav-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
 
 /* About Me div styling */
 
 .about-me {
-    margin: 20px;
-    padding: 20px;
     border: 5px ridge #497763;
     background-color: black;
     color: #b26152;
@@ -105,12 +85,19 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
 }
 
 .about-me img {
     position: relative;
+    margin: 10px;
     max-height: 200px;
     border-radius: 8px;
+}
+
+.about-me-tag {
+    justify-content: center;
 }
 
 /* Work div styling */
@@ -131,48 +118,25 @@ p {
     justify-content: space-evenly;
 }
 
-.gender-and-sexuality {
-    display: flex;
-    max-width: 800px;
-    opacity: 0.5;
-    margin-bottom: 10px;
-    border-radius: 8px;
-}
-
-.gender-and-sexuality:hover {
-    opacity: 1.0;
-  }
-
-  .work-image {
-      display: flex;
-      position: relative;
-      max-width: 400px;
-      max-height: 200px;
-      margin-top: 20px;
+  .img-responsive {
       opacity: 0.5;
       border-radius: 8px;
+      margin-bottom: 10px
   }
 
-  .work-image:hover {
+  .img-responsive:hover {
       opacity: 1.0;
   }
 
   /* Footer styling */
 
   .footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     margin: 20px;
     padding: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #497763; 
-    border-style: ridge;
+    border: 5px ridge #497763;
     background-color: black;
     color: #b26152;
     clear: both;
 	overflow: hidden;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
