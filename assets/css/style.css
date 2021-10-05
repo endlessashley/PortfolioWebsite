@@ -72,6 +72,8 @@ p {
   margin-left: 0px;
   margin-right: 0px;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -101,7 +103,7 @@ ul {
     text-align: center;
     display: flex;
     align-items: center;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 #subheading {
@@ -117,6 +119,8 @@ ul {
     margin: 30px;
     justify-content: space-around;
 }
+
+
 
 
 /* About Me styling */
@@ -137,63 +141,16 @@ ul {
 
 /* Portfolio styling */
 
-#portfolio-section {  
+#portfolio {  
     margin: 20px;
     padding: 20px;
     background-color: black;
     color: #d4877a;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-
-.card-title {
-    justify-content: center;
-    text-align: center;
-    font-size: 14pt;
-}
-
-.card-text {
-    margin: 5px;
-    font-size: 14pt;
-    text-align: center;
-}
-
-.card-body {
-    text-align: center;
-    position: relative;
-}
-
-.card {
-    text-align: center;
-}
-
-#portfolio-items {
-    display: flex;
-    justify-content: center;
-}
-
-#portfolio-section {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card-title {
     justify-content: center;
     text-align: center;
@@ -202,8 +159,16 @@ ul {
 
 .card-text {
     margin: 5px;
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: center;
+}
+
+.card-text a {
+    color: #c2b1b6;
+}
+
+.card-text a:hover {
+    color:#d4877a;
 }
 
 .card-body {
@@ -211,11 +176,35 @@ ul {
     position: relative;
 }
 
+.card-body img {
+    min-height: 200px;
+    max-height: 200px;
+}
+
 .card {
-    text-align: center;
+    margin-bottom: 35px;
 }
 
 #portfolio-items {
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

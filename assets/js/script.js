@@ -3,7 +3,7 @@ var portfolioButton = document.getElementById("portfolio-button");
 
 
 var about = document.getElementById("about");
-var portfolio = document.getElementById("portfolio-section");
+var portfolio = document.getElementById("portfolio");
 
 function showAboutMe() {
   if (about.style.display = "none") {
