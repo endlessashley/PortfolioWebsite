@@ -21,14 +21,14 @@ img {
 
 
 h1 {
-    font-size: 18vw;
+    font-size: 15vw;
     letter-spacing: -.06em;
 }
 
 
 h2 {
     float: right;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #d4877a;
     text-align: left;
 }
@@ -164,12 +164,12 @@ p {
 .card-title {
     justify-content: center;
     text-align: center;
-    font-size: 14pt;
+    font-size: 20pt;
 }
 
 .card-text {
     margin: 5px;
-    font-size: 12pt;
+    font-size: 18pt;
     text-align: center;
 }
 
