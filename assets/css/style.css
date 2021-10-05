@@ -74,6 +74,7 @@ p {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center
 }
 
 .container {
@@ -132,6 +133,11 @@ ul {
     filter: brightness(75%);
 }
 
+#headshot-col {
+    display: flex;
+    justify-content: center;
+}
+
 #about {
     display: none;
     margin:40px;
@@ -172,8 +178,8 @@ ul {
 }
 
 .card-body {
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .card-body img {
