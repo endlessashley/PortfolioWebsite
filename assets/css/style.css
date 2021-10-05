@@ -5,9 +5,7 @@
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1607329988179-70ae5c169fac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     height: 100%;
     width: 100%;
     font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
@@ -17,126 +15,207 @@ body {
 
 /* General elements */
 
-h1 {
-    display: inline-block;
-    float: left;
-    font-size: 48pt;
-    padding-bottom: 5px;
-    padding-right: 40px;
+img {
+    border-radius: 10px;
 }
 
+
+h1 {
+    font-size: 15vw;
+    letter-spacing: -.06em;
+}
+
+
 h2 {
-    float: left;
-    font-size: 24pt;
-    color: #b26152;
-    margin: 20px;
-    padding: 20px;
-    font-weight: bold;
+    float: right;
+    font-size: 3vw;
+    color: #d4877a;
     text-align: left;
-    border: 3px ridge #67544f;
-    border-bottom: 3px solid #67544f;
 }
 
 a {
-    color: #70799c;
+    color: #a5b0dd;
     text-decoration: none;
 }
 
 a:hover {
-    color: #42455b;
+    color: #c2b1b6;
+    text-decoration: none;
   }
   
 p {
-    font-size: 16pt;
+    font-size: 14pt;
     color: #c2b1b6;
-    float: right;
     margin: 20px;
+    align-self: center;
+}
+
+.btn {
+    background-color: black;
+    color: #a5b0dd;
+    font-size: 32px;
+}
+
+.btn:hover {
+    color: #c2b1b6;
+}
+
+.btn:focus {
+    color: #d4877a;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: center;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100vw;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 14pt;
+    color: #d4877a;
 }
 
 /* header div styling */
 
 .header {
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
-    border: 5px ridge #497763;
     background-color: black;
-    color: #b26152;
+    color: #c2b1b6;
     clear: both;
-	overflow: hidden;
     justify-content: space-between;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 75px;
 }
+
+#subheading {
+    margin: -25px;
+}
+
+/* Navbar and contact footer styling */
 
 .nav {
     display: flex;
     align-items: center;
     font-size: 24pt;
     margin: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
-/* About Me div styling */
+/* About Me styling */
 
-.about-me {
-    border: 5px ridge #497763;
-    background-color: black;
-    color: #b26152;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 20px;
-}
-
-.about-me img {
-    position: relative;
+#headshot {
     margin: 10px;
-    max-height: 200px;
-    border-radius: 8px;
+    max-height: 500px;
+    border-radius: 10px;
+    filter: brightness(75%);
 }
 
-.about-me-tag {
-    justify-content: center;
+#about {
+    display: none;
+    margin:40px;
+    min-height: 400px;
+    align-items: center
 }
 
-/* Work div styling */
+/* Portfolio styling */
 
-.work {  
+#portfolio-section {  
     margin: 20px;
     padding: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #497763;
-    border-style: ridge;
     background-color: black;
-    color: #b26152;
+    color: #d4877a;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-  .img-responsive {
-      opacity: 0.5;
-      border-radius: 8px;
-      margin-bottom: 10px
-  }
+.card-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 14pt;
+}
 
-  .img-responsive:hover {
-      opacity: 1.0;
-  }
+.card-text {
+    margin: 5px;
+    font-size: 14pt;
+    text-align: center;
+}
 
-  /* Footer styling */
+.card-body {
+    text-align: center;
+    position: relative;
+}
 
-  .footer {
-    margin: 20px;
-    padding: 20px;
-    border: 5px ridge #497763;
-    background-color: black;
-    color: #b26152;
-    clear: both;
-	overflow: hidden;
-    justify-content: space-between;
-  }
+.card {
+    text-align: center;
+}
+
+#portfolio-items {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-section {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.card-text {
+    margin: 5px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+}
+
+#portfolio-items {
+    display: flex;
+    justify-content: center;
+}

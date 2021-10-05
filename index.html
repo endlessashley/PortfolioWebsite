@@ -12,26 +12,55 @@
     
     <div class="container-fluid header">
         <div class="row">
-            <div class="col-xs-12 col-sm-4"><h1>Ashley Tate</h1></div>
-                <nav class="col-xs-12 col-sm-6 nav">
-                    <a href="#about-me">About</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact">Contact</a>
-                    <a href="./assets/images/developerresume.pdf">Resume</a>
-                </nav>
+            <div class="col"><h1>Ashley Tate</h1>
+            <h2 id="subheading"><i>Full-Stack Developer</i></h2></div>
         </div>
     </div>
 
-    <div class="container-fluid about-me">
-        <div class="row">
-            <div class="col-xs-12 col-sm-2"><h2><a id="about-me"></a>About</h2></div>
-            <div class="col-xs-12 col-sm-2 about-me-img"><img src="./assets/images/headshot.jpeg" alt="headshot"/></div>
-            <div class="col-xs-12 col-sm-8"><p>Learning full-stack development was the most natural choice in the world for me. After receiving my PhD in Religious Studies from the University of Virginia and considering my next steps, I knew that if there's one thing I would never get tired of, it's learning new languages! In past lives, I've been an adjunct professor, a copyeditor and managing editor, and a program coordinator. Now, I'm thrilled to bring those skills to bear in a career as a full-stack developer.</p></div>
+    <nav class="container-fluid">
+        <div class="row justify-content-center nav">
+            <div class="col col-lg-3 text-center">
+                <button id="about-button" type="button" class="btn">About</button>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <button id="portfolio-button" type="button" class="btn">Portfolio</button>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <a href="assets/images/developerresume921.pdf">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row align-items-center" id="about">
+            <div class="col-xs-12 col-sm-4"><img src="./assets/images/portfolio-picture-921.jpeg" alt="headshot" class="img-responsive" id="headshot"/></div>
+            <div class="col-xs-12 col-sm-8">
+                <p>Welcome! I'm a full-stack developer with a flair for the front-end 
+                    and a penchant for the back-end, with experience in:
+                    <ul>
+                        <li>Javascript</li>
+                        <li>jQuery</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Pure.css</li>
+                        <li>Handlebars</li>
+                        <li>MySQL</li>
+                        <li>Sequelize</li>
+                        <li>MongoDB</li>
+                    </ul> 
+                    <p>I also hold a PhD in the humanities from the University of Virginia. 
+                        In former lives, I've been an adjunct professor, program coordinator, grant writer, and managing editor.
+                        I'm thrilled to now bring all of these skills to bear in a career as a full-stack developer!
+                    </p>
+                </div>
         </div>
     </div>
     
-    <div class="container-fluid work">
-        <div class="row">
+   <div class="container-fluid">
+        <div class="row" id="portfolio">
             <div class="col-xs-12 col-sm-2"><h2><a id="work"></a>Work</h2></div>
             <div class="col-xs-12 col-sm-4"><a href="https://endlessashley.github.io/Shield-ID/">
                 <img class="img-responsive" alt="S.H.I.E.L.D. application homepage" src="./assets/images/shield-demo.png"></a></div>
@@ -42,12 +71,20 @@
         </div>
     </div>
 
-    <div class="container-fluid footer">
-        <div class="row">
-            <div class="col-xs-12 col-sm-4"><h2><a id="contact"></a>Contact</h2></div>
-            <nav class="col-xs-12 col-sm-6 nav">
-                <a href="mailto: ashley.m.tate@gmail.com">E-mail</a></li>
-                <a href="https://www.linkedin.com/in/ashley-marie-tate/">LinkedIn</a></li>
-                <a href="https://github.com/endlessashley">GitHub</a></li>
-            </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center nav">
+            <div class="col col-lg-3 text-center">
+                <a href="mailto: ashley.m.tate@gmail.com">E-mail</a>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <a href="https://www.linkedin.com/in/ashley-marie-tate/">LinkedIn</a>
+            </div>
+            <div class="col col-lg-3 text-center">
+                <a href="https://github.com/endlessashley">GitHub</a>
+            </div>
+        </div>
     </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+ 
