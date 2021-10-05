@@ -21,14 +21,14 @@ img {
 
 
 h1 {
-    font-size: 15vw;
+    font-size: 18vw;
     letter-spacing: -.06em;
 }
 
 
 h2 {
     float: right;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #d4877a;
     text-align: left;
 }
@@ -44,7 +44,7 @@ a:hover {
   }
   
 p {
-    font-size: 14pt;
+    font-size: 24pt;
     color: #c2b1b6;
     margin: 20px;
     align-self: center;
@@ -53,7 +53,7 @@ p {
 .btn {
     background-color: black;
     color: #a5b0dd;
-    font-size: 32px;
+    font-size: 32pt;
 }
 
 .btn:hover {
@@ -85,13 +85,6 @@ p {
   width: 100vw;
 }
 
-ul {
-    text-align: center;
-    list-style-type: none;
-    font-size: 14pt;
-    color: #d4877a;
-}
-
 /* header div styling */
 
 .header {
@@ -116,7 +109,7 @@ ul {
 .nav {
     display: flex;
     align-items: center;
-    font-size: 24pt;
+    font-size: 32pt;
     margin: 30px;
     justify-content: space-around;
 }
@@ -143,6 +136,17 @@ ul {
     margin:40px;
     min-height: 400px;
     align-items: center
+}
+
+.skills {
+    text-align: center;
+    color: #d4877a;
+    font-size: 20pt;
+}
+
+.skills p{
+    color: #d4877a;
+    font-size: 20pt;
 }
 
 /* Portfolio styling */
