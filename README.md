@@ -2,7 +2,12 @@
 
 In order for prospective employers to learn more about the candidate, this portfolio website features, a brief bio and headshot, samples of work with links to repositories and deployments, contact information, and a responsive design. 
 
-# Deployment
+## Technologies
+
+HTML, CSS, Bootstrap, and a little light Javascript
+
+
+## Deployment
 
 https://endlessashley.github.io/PortfolioWebsite/
 
